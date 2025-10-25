@@ -1,0 +1,109 @@
+/* Appointment Page Styling */
+.appointment-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.appointment-container {
+  background: #fff;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #ff6b6b;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #ff5252;
+}
+
+.page-header {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.page-header p {
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .appointment-container {
+    padding: 2rem 1.5rem;
+  }
+}
+/* Fix the header overlap and make it stand out */
+.page-header {
+  text-align: center;
+  padding: 6rem 1rem 2rem; /* Increased top padding */
+  background-color: #f8f9fa; /* Light background to contrast navbar */
+}
+
+.page-header h1 {
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  color: #555;
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}

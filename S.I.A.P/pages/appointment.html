@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment - Budget Meal Laptops</title>
+  <link rel="stylesheet" href="../assets/styles/style.css">
+  <link rel="stylesheet" href="../assets/styles/base.css">
+  <link rel="stylesheet" href="../assets/styles/navbar.css">
+  <link rel="stylesheet" href="../assets/styles/appointment.css">
+  <link rel="stylesheet" href="../assets/styles/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <h1>Budget Meal Laptops</h1>
+      </div>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="appointment.html" class="active">Appointment</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Book an Appointment</h1>
+      <p>Need expert advice or laptop assistance? Schedule your consultation with our trusted specialists.</p>
+    </section>
+
+    <section class="appointment-section">
+      <div class="appointment-container">
+        <form class="appointment-form">
+          <h2>Schedule Your Session</h2>
+
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service Type</label>
+            <select id="service" required>
+              <option value="">Select a service</option>
+              <option value="laptop-consultation">Laptop Consultation</option>
+              <option value="repair-request">Repair Request</option>
+              <option value="upgrade-advice">Upgrade & Accessories</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Additional Notes</label>
+            <textarea id="message" rows="4" placeholder="Tell us more about your needs..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Book Appointment</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Budget Meal Laptops</h3>
+        <p>Your destination for affordable and reliable laptops.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/BmpcLaptop"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2025 Budget Meal Laptops. All rights reserved.</p>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
